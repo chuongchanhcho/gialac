@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.tong{
+    height: 100px;
+    position: relative;
+    background-color: rgb(248, 172, 236);
+    opacity: 50%;
+
+}
+.tong .logo{
+    position: absolute;
+    top: 10px;
+    left: 150px;
+}
+.tong nav{
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+.tong nav a{
+    text-decoration: none;
+    color: black;
+    line-height: 50px;
+    margin: 0 10px;
+    font-size: 20px;
+}
+.tong nav a:hover{
+    color: yellowgreen;
+    font-weight: bold;
+    transition: ease-in 0.40s;
+}
+ul.rot > li{
+    list-style: none;
+    float: left;
+}
+ul.submenu{
+    display: none;
+}
+ul.submenu > li{
+    list-style: none;
+}
+ul.submenu > li>a{
+    display: block;
+}ul.rot > li:hover ul.submenu{
+    display: block;
+}
+.banner{
+    width: 1519px;
+    margin-top: 100px;
+}
+.banner img{
+    max-width: 100%;
+}
+.hieu{
+    text-align: center;
+    margin: 40px 0;
+    font-size: 40px;
+}
+.menucon{
+    width: 15%;
+    margin: 60px;
+    display: inline-block;
+}
+.menucon p{
+    text-align: center;
+}
+.menucon img{
+    max-width: 100%;
+}
+.tongsanpham .menucon :hover{
+    box-shadow: 0px 0px 20px rgb(78, 72, 72);
+}
+.diachi{
+    position: absolute;
+    margin-left: 10%;
+    color: white;
+}
+.cuoitrang{
+    width: 50px;
+    margin-top: 100px;
+}
+.bidi{
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 100px 100px;
+}
+.form{
+    width: 350px;
+    height: 250px;
+    }
+.form-gourp{
+    margin: 10px 2px ;
+    color: crimson;
+}
+.form-control{
+    margin: 3px 0px;
+    border: none;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px black;
+    display : block;
+    outline: none;
+}
+.dangnhap{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.thongtin{
+    position: absolute;
+    margin-left: 60%;
+    color: white;
+}
+.foot{
+    position: relative;
+    background-color: black;
+    height: 100px;
+    position: relative;
+}
